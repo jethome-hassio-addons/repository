@@ -21,7 +21,18 @@ Expose [JetHub](http://jethome.ru) resources (relays,inputs,etc..) to Home Assis
 **Note**: _You still need to use native Home Assistant [1-Wire](https://www.home-assistant.io/integrations/onewire/) integration to expose 1-Wire device 
 like temperature sensors `DS18B20`_
 
+
+## JetHome resources:
+
+- Documentation - https://wiki.jethome.ru 3
+- Official website - http://jethome.ru 2
+- Telegram news channel - https://t.me/jethome_news
+- Telegram official chat - https://t.me/jethomeru
+- GitHub: https://github.com/jethome-ru 1
+- E-Store: http://jhome.ru 2
+- Instagram - https://instagram.com/jethomeru
+
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v0.1.1-blue.svg
-[release]: https://github.com/jethome-ru/hassio-addon-jethub-mqtt-io/tree/v0.1.1
+[release-shield]: https://img.shields.io/badge/version-v0.1.3-blue.svg
+[release]: https://github.com/jethome-ru/hassio-addon-jethub-mqtt-io/tree/v0.1.3
