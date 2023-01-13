@@ -1,7 +1,7 @@
 ---
 channel: stable
 addons:
-  hassio-addon-jethub-mqtt-io:
-    repository: jethome-ru/hassio-addon-jethub-mqtt-io
-    target: hassio-addon-jethub-mqtt-io
-    image: ghcr.io/jethome-ru/hassio-addon-jethub-mqtt-io/{arch}
+  addon-jethub-mqtt-io:
+    repository: jethome-hassio-addons/addon-jethub-mqtt-io
+    target: addon-jethub-mqtt-io
+    image: ghcr.io/jethome-hassio-addons/addon-jethub-mqtt-io/{arch}
