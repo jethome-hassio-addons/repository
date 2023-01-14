@@ -1,0 +1,30 @@
+apparmor: false
+arch:
+- aarch64
+description: Expose JetHome JetHub peripheral (relays, inputs, etc..) via mqtt-io
+gpio: true
+homeassistant: 2021.8.8
+image: ghcr.io/jethome-hassio-addons/jethub-mqtt-io/{arch}
+init: false
+name: JetHome JetHub mqtt-io peripheral exposer
+options:
+  jethub_model: auto
+  log_level: info
+  mqtt:
+    client_id: jethub-mqtt-io
+    topic_prefix: jethub-mqtt-io
+schema:
+  jethub_model: str
+  log_level: list(trace|debug|info|notice|warning|error|fatal)
+  mqtt:
+    client_id: str
+    host: str?
+    password: str?
+    port: int(1024,65535)?
+    topic_prefix: str
+    user: str?
+services:
+- mqtt:need
+slug: jethub-mqtt-io
+url: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io
+version: 0.2.0

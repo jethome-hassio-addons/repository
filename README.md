@@ -19,6 +19,19 @@ https://github.com/jethome-hassio-addons/repository
 
 ## Add-ons provided by this repository
 
+### &#10003; [JetHome JetHub mqtt-io peripheral exposer][addon-jethub-mqtt-io]
+
+![Latest Version][jethub-mqtt-io-version-shield]
+![Supports armhf Architecture][jethub-mqtt-io-armhf-shield]
+![Supports armv7 Architecture][jethub-mqtt-io-armv7-shield]
+![Supports aarch64 Architecture][jethub-mqtt-io-aarch64-shield]
+![Supports amd64 Architecture][jethub-mqtt-io-amd64-shield]
+![Supports i386 Architecture][jethub-mqtt-io-i386-shield]
+
+Expose JetHome JetHub peripheral (relays, inputs, etc..) via mqtt-io
+
+[:books: JetHome JetHub mqtt-io peripheral exposer add-on documentation][addon-doc-jethub-mqtt-io]
+
 ## Releases
 
 Releases are based on [Semantic Versioning][semver], and use the format
@@ -35,7 +48,17 @@ in this channel.
 
 ## Support
 
+- [Open an issue for the add-on: JetHome JetHub mqtt-io peripheral exposer][jethub-mqtt-io-issue]
 
+[addon-jethub-mqtt-io]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/tree/v0.2.0
+[addon-doc-jethub-mqtt-io]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/blob/v0.2.0/README.md
+[jethub-mqtt-io-issue]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/issues
+[jethub-mqtt-io-version-shield]: https://img.shields.io/badge/version-v0.2.0-blue.svg
+[jethub-mqtt-io-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[jethub-mqtt-io-amd64-shield]: https://img.shields.io/badge/amd64-no-red.svg
+[jethub-mqtt-io-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[jethub-mqtt-io-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[jethub-mqtt-io-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 
 [issue]: https://github.com/jethome-hassio-addons/repository/issues
 [license-shield]: https://img.shields.io/github/license/jethome-hassio-addons/repository.svg
