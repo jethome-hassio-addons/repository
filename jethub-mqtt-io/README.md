@@ -32,5 +32,5 @@ like temperature sensors `DS18B20`_
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v0.2.0-blue.svg
-[release]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/tree/v0.2.0
+[release-shield]: https://img.shields.io/badge/version-v0.2.4-blue.svg
+[release]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/tree/v0.2.4

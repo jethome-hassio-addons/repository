@@ -50,10 +50,10 @@ in this channel.
 
 - [Open an issue for the add-on: JetHome JetHub mqtt-io peripheral exposer][jethub-mqtt-io-issue]
 
-[addon-jethub-mqtt-io]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/tree/v0.2.0
-[addon-doc-jethub-mqtt-io]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/blob/v0.2.0/README.md
+[addon-jethub-mqtt-io]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/tree/v0.2.4
+[addon-doc-jethub-mqtt-io]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/blob/v0.2.4/README.md
 [jethub-mqtt-io-issue]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/issues
-[jethub-mqtt-io-version-shield]: https://img.shields.io/badge/version-v0.2.0-blue.svg
+[jethub-mqtt-io-version-shield]: https://img.shields.io/badge/version-v0.2.4-blue.svg
 [jethub-mqtt-io-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [jethub-mqtt-io-amd64-shield]: https://img.shields.io/badge/amd64-no-red.svg
 [jethub-mqtt-io-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
