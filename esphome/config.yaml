@@ -31,8 +31,8 @@ backup_exclude:
 - '*/*/'
 init: false
 startup: services
-name: ESPHome (JetHome)
+name: ESPJetHome
 version: 2023.12.9
-slug: esphome
-description: ESPHome add-on for intelligently managing all your ESP8266/ESP32 devices with JetHome T1S Ethernet support
+slug: espjethome
+description: JetHome ESPHome add-on for intelligently managing all your ESP8266/ESP32 devices with T1S Ethernet support
 image: ghcr.io/jethome-iot/esphome-hassio
