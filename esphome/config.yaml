@@ -1,8 +1,7 @@
 ---
-url: https://esphome.io/
+url: https://github.com/jethome-iot/esphome/
 arch:
 - amd64
-- armv7
 - aarch64
 hassio_api: true
 auth_api: true
@@ -31,8 +30,13 @@ backup_exclude:
 - '*/*/'
 init: false
 startup: services
-name: ESPJetHome
-version: 2024.2.1
-slug: espjethome
-description: JetHome ESPHome add-on for intelligently managing all your ESP8266/ESP32 devices with T1S Ethernet support
+name: JetHome ESPJHome Device Builder
+version: 2025.7.5
+slug: espjhome
+description: Build your own smart home devices using JetHome ESPJHome fork, no programming experience
 image: ghcr.io/jethome-iot/esphome-hassio
+
+
+
+
+
