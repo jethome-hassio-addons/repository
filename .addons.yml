@@ -5,3 +5,7 @@ addons:
     repository: jethome-hassio-addons/addon-jethub-mqtt-io
     target: jethub-mqtt-io
     image: ghcr.io/jethome-hassio-addons/jethub-mqtt-io/{arch}
+  jethub-gpio2mqtt:
+    repository: jethome-hassio-addons/addon-jethub-gpio2mqtt
+    target: jethub-gpio2mqtt
+    image: ghcr.io/jethome-hassio-addons/jethub-gpio2mqtt/{arch}
