@@ -1,0 +1,45 @@
+name: JetHome peripheral exposer
+version: 1.0.0
+slug: jethub-gpio2mqtt
+description: Expose JetHome JetHub (D1/D2/D3/H1) peripheral (relays, inputs, UXM control)
+  via gpio2mqtt
+url: https://github.com/jethome-hassio-addons/addon-jethub-gpio2mqtt
+init: false
+hassio_api: true
+services:
+- mqtt:need
+arch:
+- aarch64
+- amd64
+homeassistant: 2024.1.0
+gpio: true
+apparmor: false
+options:
+  log_level: info
+  jethub_model: auto
+  use_module_config: false
+  restore_mode: restore
+  custom_config: ''
+  mqtt:
+    client_id: jethub-gpio2mqtt
+    topic_prefix: jethub-gpio2mqtt
+    legacy_mqttio: false
+    keepalive: 60
+    qos: 1
+schema:
+  log_level: list(trace|debug|info|warning|error)
+  jethub_model: list(auto|jethub-d1|jethub-d2|jethub-d3|jethub-h1|manual)
+  use_module_config: bool
+  restore_mode: list(restore|off|on)
+  custom_config: str?
+  mqtt:
+    host: str?
+    port: int(1024,65535)?
+    user: str?
+    password: str?
+    client_id: str
+    topic_prefix: str
+    legacy_mqttio: bool
+    keepalive: int(5,3600)?
+    qos: int(0,2)?
+image: ghcr.io/jethome-hassio-addons/jethub-gpio2mqtt/{arch}

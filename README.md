@@ -27,6 +27,16 @@ Expose JetHome JetHub peripheral (relays, inputs, etc..) via mqtt-io
 
 [:books: JetHome JetHub mqtt-io peripheral exposer add-on documentation][addon-doc-jethub-mqtt-io]
 
+### &#10003; [JetHome peripheral exposer][addon-jethub-gpio2mqtt]
+
+![Latest Version][jethub-gpio2mqtt-version-shield]
+![Supports aarch64 Architecture][jethub-gpio2mqtt-aarch64-shield]
+![Supports amd64 Architecture][jethub-gpio2mqtt-amd64-shield]
+
+Expose JetHome JetHub (D1/D2/D3/H1) peripheral (relays, inputs, UXM control) via gpio2mqtt
+
+[:books: JetHome peripheral exposer add-on documentation][addon-doc-jethub-gpio2mqtt]
+
 ## Releases
 
 Releases are based on [Semantic Versioning][semver], and use the format
@@ -40,6 +50,7 @@ based on the following:
 ## Support
 
 - [Open an issue for the add-on: JetHome JetHub mqtt-io peripheral exposer][jethub-mqtt-io-issue]
+- [Open an issue for the add-on: JetHome peripheral exposer][jethub-gpio2mqtt-issue]
 
 [addon-jethub-mqtt-io]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/tree/v0.3.0
 [addon-doc-jethub-mqtt-io]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/blob/v0.3.0/README.md
@@ -47,6 +58,12 @@ based on the following:
 [jethub-mqtt-io-version-shield]: https://img.shields.io/badge/version-v0.3.0-blue.svg
 [jethub-mqtt-io-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [jethub-mqtt-io-amd64-shield]: https://img.shields.io/badge/amd64-no-red.svg
+[addon-jethub-gpio2mqtt]: https://github.com/jethome-hassio-addons/addon-jethub-gpio2mqtt/tree/v1.0.0
+[addon-doc-jethub-gpio2mqtt]: https://github.com/jethome-hassio-addons/addon-jethub-gpio2mqtt/blob/v1.0.0/README.md
+[jethub-gpio2mqtt-issue]: https://github.com/jethome-hassio-addons/addon-jethub-gpio2mqtt/issues
+[jethub-gpio2mqtt-version-shield]: https://img.shields.io/badge/version-v1.0.0-blue.svg
+[jethub-gpio2mqtt-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[jethub-gpio2mqtt-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 
 [issue]: https://github.com/jethome-hassio-addons/repository/issues
 [license-shield]: https://img.shields.io/github/license/jethome-hassio-addons/repository.svg
