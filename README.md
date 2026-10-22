@@ -23,7 +23,7 @@ https://github.com/jethome-hassio-addons/repository
 ![Supports aarch64 Architecture][jethub-mqtt-io-aarch64-shield]
 ![Supports amd64 Architecture][jethub-mqtt-io-amd64-shield]
 
-Expose JetHome JetHub peripheral (relays, inputs, etc..) via mqtt-io
+DEPRECATED - replaced by JetHome peripheral exposer. Expose JetHome JetHub peripheral via mqtt-io
 
 [:books: JetHome JetHub mqtt-io peripheral exposer add-on documentation][addon-doc-jethub-mqtt-io]
 
@@ -52,10 +52,10 @@ based on the following:
 - [Open an issue for the add-on: JetHome JetHub mqtt-io peripheral exposer][jethub-mqtt-io-issue]
 - [Open an issue for the add-on: JetHome peripheral exposer][jethub-gpio2mqtt-issue]
 
-[addon-jethub-mqtt-io]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/tree/v0.3.0
-[addon-doc-jethub-mqtt-io]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/blob/v0.3.0/README.md
+[addon-jethub-mqtt-io]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/tree/v0.3.1
+[addon-doc-jethub-mqtt-io]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/blob/v0.3.1/README.md
 [jethub-mqtt-io-issue]: https://github.com/jethome-hassio-addons/addon-jethub-mqtt-io/issues
-[jethub-mqtt-io-version-shield]: https://img.shields.io/badge/version-v0.3.0-blue.svg
+[jethub-mqtt-io-version-shield]: https://img.shields.io/badge/version-v0.3.1-blue.svg
 [jethub-mqtt-io-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [jethub-mqtt-io-amd64-shield]: https://img.shields.io/badge/amd64-no-red.svg
 [addon-jethub-gpio2mqtt]: https://github.com/jethome-hassio-addons/addon-jethub-gpio2mqtt/tree/v1.0.0
