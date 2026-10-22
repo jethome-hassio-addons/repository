@@ -1,5 +1,5 @@
 name: JetHome peripheral exposer
-version: 1.0.0
+version: 1.0.1
 slug: jethub-gpio2mqtt
 description: Expose JetHome JetHub (D1/D2/D3/H1) peripheral (relays, inputs, UXM control)
   via gpio2mqtt
@@ -13,7 +13,7 @@ arch:
 - amd64
 homeassistant: 2024.1.0
 gpio: true
-apparmor: false
+apparmor: true
 options:
   log_level: info
   jethub_model: auto
