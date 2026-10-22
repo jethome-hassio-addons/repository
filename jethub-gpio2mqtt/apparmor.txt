@@ -18,11 +18,11 @@ profile hassio-jethub-gpio2mqtt flags=(attach_disconnected,mediate_deleted) {
   network unix dgram,
 
   # Runtime executables and libraries
-  /usr/local/bin/** ix,
-  /usr/bin/** ix,
-  /bin/** ix,
-  /sbin/** ix,
-  /usr/sbin/** ix,
+  /usr/local/bin/** rix,
+  /usr/bin/** rix,
+  /bin/** rix,
+  /sbin/** rix,
+  /usr/sbin/** rix,
   /usr/lib/** r,
   /lib/** r,
   /usr/share/** r,
