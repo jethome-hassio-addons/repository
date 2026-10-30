@@ -51,6 +51,11 @@ profile hassio-jethub-gpio2mqtt flags=(attach_disconnected,mediate_deleted) {
   /sys/bus/i2c/devices/ r,
   /sys/bus/i2c/devices/** r,
 
+  /sys/devices/**/gpiochip[0-9]*/ r,
+  /sys/devices/**/gpiochip[0-9]*/** r,
+  /sys/devices/**/gpio/ r,
+  /sys/devices/**/gpio/** r,
+
   # Model detection: device tree
   /sys/firmware/devicetree/base/** r,
 }
